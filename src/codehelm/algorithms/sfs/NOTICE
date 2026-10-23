@@ -5,8 +5,8 @@ originally developed at https://github.com/codespace-optimization/sfs
 and licensed under the Apache License, Version 2.0.
 
 Original reference:
-"Scattered Forest Search: Smart Code Space Optimization and Test-time Scaling with LLMs"
-https://codespace-optimization.github.io/
+Light, Jonathan, et al. "SFS: Smarter code space search improves LLM inference
+scaling." International Conference on Learning Representations. Vol. 2025. 2025.
 
 Ported and adapted for CodeHelm:
 Copyright IBM Corp. 2026 - 2026
