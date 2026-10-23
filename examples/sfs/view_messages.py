@@ -124,14 +124,6 @@ h1 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
 .response-block {
     background: #fffdf0;
 }
-footer {
-    margin-top: 32px;
-    padding-top: 12px;
-    border-top: 1px solid #e5e7eb;
-    text-align: center;
-    font-size: 11px;
-    color: #8a929d;
-}
 """
 
 JS = """
@@ -261,7 +253,6 @@ def build_html(records: list[dict], source_path: str) -> str:
   <a href="#" onclick="collapseAll(); return false">collapse all</a>
 </div>
 {"".join(body_parts)}
-<footer>Made with IBM Bob</footer>
 <script>{JS}</script>
 </body>
 </html>"""

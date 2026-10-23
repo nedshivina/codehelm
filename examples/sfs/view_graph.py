@@ -187,10 +187,6 @@ svg .node rect:hover {{ filter: brightness(0.92); }}
     white-space: pre-wrap; word-break: break-word; line-height: 1.5;
     max-height: 220px; overflow-y: auto;
 }}
-footer {{
-    text-align: center; padding: 12px; font-size: 11px; color: #8a929d;
-    border-top: 1px solid #e5e7eb; background: #fff; margin-top: 8px;
-}}
 </style>
 </head>
 <body>
@@ -212,7 +208,6 @@ footer {{
 </svg>
 </div>
 <div id="detail"></div>
-<footer>Made with IBM Bob</footer>
 <script>
 const nodeData = {node_data_json};
 document.querySelectorAll('.node').forEach(g => {{
